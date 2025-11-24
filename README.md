@@ -1,4 +1,4 @@
-# filelight-AppImage 🐧
+# Filelight-AppImage 🐧
 
 [![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/filelight-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/filelight-AppImage/releases/latest)
 [![CI Build Status](https://github.com/pkgforge-dev/filelight-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/filelight-AppImage/releases/latest)
@@ -7,13 +7,19 @@
 
 ---
 
-# filelight AppImage
-
 Filelight is a disk usage analyzer that creates an interactive map of concentric, segmented rings that help visualize disk usage on your computer.
 
 AppImage made using [sharun](https://github.com/VHSgunzo/sharun), which makes it extremely easy to turn any binary into a portable package without using containers or similar tricks.
 
 **This AppImage bundles everything and should work on any linux distro, even on musl based ones.**
+
+It is possible that this appimage may fail to work with appimagelauncher, I recommend these alternatives instead: 
+
+* [AM](https://github.com/ivan-hc/AM) `am -i filelight` or `appman -i filelight`
+
+* [dbin](https://github.com/xplshn/dbin) `dbin install filelight.appimage`
+
+* [soar](https://github.com/pkgforge/soar) `soar install filelight`
 
 This AppImage can work **without FUSE** at all thanks to the [uruntime](https://github.com/VHSgunzo/uruntime)
 
